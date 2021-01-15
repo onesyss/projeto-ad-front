@@ -153,7 +153,7 @@ p {
 }
 .btn {
   background-color: rgb(160, 37, 7) /*Botão Começar agora*/;
-  color: #fff;
+  color: #fff; /*Letra cor*/
   display: inline-block;
   border-radius: 30px;
   padding: 10px 20px;
@@ -163,7 +163,7 @@ p {
   cursor: pointer;
 }
 .btn:hover {
-  background-color: rgb(84, 180, 84);
+  background-color: rgb(128, 21, 2, 0.774);
 }
 .btn.orange {
   background-color: #fed136;
@@ -196,14 +196,14 @@ h2:after {
   display: inline-block;
   width: 140px;
   height: 140px;
-  background: #e1f3e1;
+  background: #565756;
   border-radius: 30px;
   position: relative;
 }
 .icon-container .material-icons {
   display: block;
   font-size: 85px;
-  color: rgb(84, 209, 84);
+  color: rgba(241, 240, 240, 0.774);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -220,7 +220,7 @@ h2:after {
   display: block;
   width: 50%;
   height: 60px;
-  border-right: 2px solid rgb(32, 123, 32);
+  border-right: 2px solid rgba(230, 228, 228, 0.774); /*Linha a baixo das fotos*/
   background: transparent;
   margin-bottom: 10px;
 }
@@ -240,7 +240,7 @@ body {
   padding: 10px 30px;
 }
 #header .btn:hover {
-  background-color: rgb(84, 180, 84);
+  background-color: rgb(128, 21, 2, 0.774);
 }
 #header nav a {
   display: inline-block;
@@ -250,7 +250,7 @@ body {
 }
 #header nav a:hover,
 #header nav a.active {
-  background-color: rgba(84, 209, 84, 0.3);
+  background-color: rgba(128, 21, 2, 0.774);
 }
 #header h1 {
   font-size: 54px;
@@ -261,9 +261,10 @@ body {
   background-size: cover;
   color: #fff;
   width: 100%;
-  height: 660px;
+  height: 350px; /*Largura imagem principal*/
   position: relative;
   padding-top: 30px;
+  
 }
 #header a {
   color: #fff;
@@ -342,10 +343,10 @@ body {
   }
 }
 #header.page-home {
-  background-image: url(../../images/background-header.jpg);
+  background-image: url(../../images/img-backgorud-home-books-medium.png);
 }
 #customers {
-  background-color: rgb(242, 242, 242);
+  background-color: rgba(15, 12, 12, 0.76);
 }
 #customers .btn {
   margin-top: 80px;
@@ -364,7 +365,7 @@ body {
   max-width: 1000px;
 }
 #team {
-  background-color: rgb(84, 209, 84);
+  background-color: rgba(61, 10, 3, 0.829);
   color: white;
 }
 #team h2:after {
