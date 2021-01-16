@@ -31,10 +31,11 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
+.row2 { /* */
+  margin-left: 70px;
+  margin-right: 70px;
 }
+
 .row:before,
 .row:after {
   content: " ";
@@ -145,6 +146,7 @@ p {
   .col-offset-desktop-12 {
     margin-left: 100%;
   }
+ 
 }
 @media (min-width: 1200px) {
   .container {
@@ -162,11 +164,33 @@ p {
   border: none;
   cursor: pointer;
 }
+
+.btn2 { /*Botão saiba mais*/
+  background-color: rgb(3, 2, 1);
+  color: #fff; /*Letra cor*/
+  text-align: left;
+  display: inline-block;
+  border-radius: 0px; /*Botão boleado*/
+  padding: 10px 50px;
+  text-decoration: none;
+  transition: ease 0.8s all;
+  border: none;
+  cursor: pointer; 
+}
+
+h2.subtitle { /*Letra Júca advogados associados*/
+  color: #fff;
+}
+
+p.subtitle { /*texto Júca advogados associados*/
+  color: rgb(177, 177, 177);
+}
+
 .btn:hover {
   background-color: rgb(128, 21, 2, 0.774);
 }
 .btn.orange {
-  background-color: #fed136;
+  background-color: #3b3b39;
 }
 .btn.orange:hover {
   background-color: black;
@@ -188,9 +212,31 @@ h2:after {
 }
 .subtitle {
   margin-bottom: 80px;
+  text-align:left;
+}
+
+.subtitle2 {
+  margin-bottom: 80px;
+  text-align:left;
+  
+}
+
+.subtitle3 {
+  text-align:left;
+}
+
+.lorac img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40%;
+  height: 60%;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
 }
 .text-left {
-  text-align: left;
+  text-align:right;
+  
 }
 .icon-container {
   display: inline-block;
@@ -203,12 +249,29 @@ h2:after {
 .icon-container .material-icons {
   display: block;
   font-size: 85px;
-  color: rgba(241, 240, 240, 0.774);
+  color: rgba(241, 240, 240, 0.774); /*Cor dos icones na parte: Como funciona*/
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   cursor: default;
+}
+
+#how-it-work {
+  background: rgb(41, 40, 40); /*Cor fundo como funciona*/
+
+}
+
+#how-it-work2 {
+  background: rgb(241, 236, 236); /*Cor fundo como funciona*/
+}
+
+#how-it-work3 {
+  background: rgb(241, 236, 236); /*Cor fundo como funciona*/
+}
+
+#how-it-work p {
+  text-align: justify;
 }
 .img-box-round {
   display: inline-block;
@@ -261,13 +324,13 @@ body {
   background-size: cover;
   color: #fff;
   width: 100%;
-  height: 350px; /*Largura imagem principal*/
+  height: 400px; /*Largura imagem principal*/
   position: relative;
   padding-top: 30px;
   
 }
 #header a {
-  color: #fff;
+  color: #fff;/*Cor letra menu superior*/
   transition: ease 0.5s all;
 }
 #header nav {
@@ -296,7 +359,7 @@ body {
 }
 #footer,
 #footer a {
-  color: rgb(204, 204, 204);
+  color: rgb(204, 204, 204);/*Cor letra menu inferior*/
 }
 #footer h3,
 #footer nav li {
@@ -305,8 +368,8 @@ body {
 #footer h3:after {
   content: "";
   display: block;
-  border-bottom: 2px solid rgb(204, 204, 204);
-  width: 30px;
+  border-bottom: 2px solid rgb(204, 204, 204); /*Traço menu*/
+  width: 100px;
 }
 #footer nav li {
   padding: 3px 0;
@@ -343,7 +406,7 @@ body {
   }
 }
 #header.page-home {
-  background-image: url(../../images/img-backgorud-home-books-medium.png);
+  background-image: url(../../images/ffv.jpg);
 }
 #customers {
   background-color: rgba(15, 12, 12, 0.76);
@@ -353,10 +416,10 @@ body {
   background-color: rgb(220, 220, 220);
   color: rgb(130, 130, 130);
 }
-#customers .btn:hover {
+/*#customers .btn:hover {
   background-color: rgb(130, 130, 130);
-  color: rgb(220, 220, 220);
-}
+  color: rgb(190, 12, 12); Cor equipe
+}*/
 #customers .btn .material-icons {
   vertical-align: middle;
   font-size: 16px;
@@ -365,8 +428,8 @@ body {
   max-width: 1000px;
 }
 #team {
-  background-color: rgba(61, 10, 3, 0.829);
-  color: white;
+  background-color: rgba(201, 198, 198, 0.829); /*Cor fundo equipe*/
+  color: rgb(15, 7, 7);
 }
 #team h2:after {
   background-color: rgb(255, 255, 255);
@@ -375,3 +438,16 @@ body {
   width: 120px;
   height: 120px;
 }
+
+.menu li  ul{
+  position:absolute;
+  top:25px;
+  left:0;
+  background-color:#fff;
+  display:none;
+  }
+.menu li:hover ul, .menu li.over ul{
+  display:block;
+}
+
+
