@@ -37,14 +37,58 @@ p {
 }
 
 .row:before,
-.row:after {
+.row:after { /* Nossa equipe */
   content: " ";
   display: table;
 }
-.row:after {
+.row:after { /*Bloco button saiba mais */
   clear: both;
 }
-.col {
+
+.btn2 { /*Botão saiba mais*/
+  background-color: rgb(3, 2, 1);
+  color: #fff; /*Letra cor*/
+  text-align: left;
+  display: inline-block;
+  border-radius: 0px; /*Botão boleado*/
+  padding: 10px 50px;
+  text-decoration: none;
+  transition: ease 0.8s all;
+  border: none;
+  cursor: pointer; 
+}
+
+h2.subtitle { /*Letra Júca advogados associados*/
+  color: #fff;
+}
+
+p.subtitle { /*texto Júca advogados associados*/
+  color: rgb(177, 177, 177);
+}
+
+.subtitle { /*Configuração bloco subtitle largura do bloco saiba mais*/
+  margin-bottom: 80px;
+  text-align:left;
+}
+.subtitle2 { /*Largura do bloco saiba mais */
+  margin-bottom: 200px;
+  text-align:left; 
+}
+.subtitle3 {
+  text-align:left;
+  margin-bottom: 200px;
+}   
+.lorac img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40%;
+  height: 60%;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+}
+
+.col { /*Configuração do bloco nossa equipe*/
   position: relative;
   padding-left: 15px;
   padding-right: 15px;
@@ -165,27 +209,7 @@ p {
   cursor: pointer;
 }
 
-.btn2 { /*Botão saiba mais*/
-  background-color: rgb(3, 2, 1);
-  color: #fff; /*Letra cor*/
-  text-align: left;
-  display: inline-block;
-  border-radius: 0px; /*Botão boleado*/
-  padding: 10px 50px;
-  text-decoration: none;
-  transition: ease 0.8s all;
-  border: none;
-  cursor: pointer; 
-}
-
-h2.subtitle { /*Letra Júca advogados associados*/
-  color: #fff;
-}
-
-p.subtitle { /*texto Júca advogados associados*/
-  color: rgb(177, 177, 177);
-}
-
+/*
 .btn:hover {
   background-color: rgb(128, 21, 2, 0.774);
 }
@@ -194,15 +218,17 @@ p.subtitle { /*texto Júca advogados associados*/
 }
 .btn.orange:hover {
   background-color: black;
-}
-h2 {
+}*/
+
+h2 { /*Formatação texto h2*/
   text-transform: uppercase;
   font-weight: normal;
   text-align: center;
   font-size: 25px;
   margin: 10px 0 20px 0;
 }
-h2:after {
+
+h2:after { /*Formatação Traço*/
   content: "";
   display: block;
   background-color: rgb(130, 130, 130);
@@ -210,46 +236,17 @@ h2:after {
   width: 50px;
   height: 2px;
 }
-.subtitle {
-  margin-bottom: 80px;
-  text-align:left;
-}
 
-.subtitle2 {
-  margin-bottom: 80px;
-  text-align:left;
-  
-}
-
-.subtitle3 {
-  text-align:left;
-}
-
-.lorac img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 40%;
-  height: 60%;
-  background-position: 50% 50% !important;
-  background-size: cover !important;
-}
+/*
 .text-left {
   text-align:right;
   
-}
-.icon-container {
-  display: inline-block;
-  width: 140px;
-  height: 140px;
-  background: #565756;
-  border-radius: 30px;
-  position: relative;
-}
+}*/
+
 .icon-container .material-icons {
   display: block;
   font-size: 85px;
-  color: rgba(241, 240, 240, 0.774); /*Cor dos icones na parte: Como funciona*/
+  color: rgba(241, 240, 240, 0.774); 
   position: absolute;
   top: 50%;
   left: 50%;
@@ -257,17 +254,13 @@ h2:after {
   cursor: default;
 }
 
-#how-it-work {
-  background: rgb(41, 40, 40); /*Cor fundo como funciona*/
 
+#how-it-work2 { 
+  background: rgb(241, 236, 236); 
 }
 
-#how-it-work2 {
-  background: rgb(241, 236, 236); /*Cor fundo como funciona*/
-}
-
-#how-it-work3 {
-  background: rgb(241, 236, 236); /*Cor fundo como funciona*/
+#how-it-work3 { 
+  background: rgb(241, 236, 236);
 }
 
 #how-it-work p {
@@ -298,28 +291,28 @@ body {
   color: rgb(130, 130, 130);
   line-height: 25px;
 }
-#header .btn {
+#header .btn { /*Formatação cabeçalho*/
   font-size: 16px;
   padding: 10px 30px;
 }
-#header .btn:hover {
+#header .btn:hover {/*Formatação cabeçalho*/
   background-color: rgb(128, 21, 2, 0.774);
 }
-#header nav a {
+#header nav a {/*Formatação cabeçalho*/
   display: inline-block;
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
 }
 #header nav a:hover,
-#header nav a.active {
+#header nav a.active {/*Formatação cabeçalho*/
   background-color: rgba(128, 21, 2, 0.774);
 }
-#header h1 {
+#header h1 {/*Formatação cabeçalho*/
   font-size: 54px;
   line-height: 60px;
 }
-#header {
+#header {/*Formatação cabeçalho*/
   background: #000 no-repeat fixed center;
   background-size: cover;
   color: #fff;
@@ -329,37 +322,37 @@ body {
   padding-top: 30px;
   
 }
-#header a {
+#header a {/*Formatação cabeçalho*/
   color: #fff;/*Cor letra menu superior*/
   transition: ease 0.5s all;
 }
-#header nav {
+#header nav {/*Formatação cabeçalho*/
   text-align: right;
 }
 #header nav ul,
-#header nav ul li {
+#header nav ul li {/*Formatação cabeçalho*/
   display: inline-block;
 }
-#header .title {
+#header .title {/*Formatação cabeçalho*/
   position: absolute;
   left: 0;
   top: 50%;
   transform: translate(0, -50%);
   text-align: center;
 }
-.section {
+.section {/*Letra do bloco mais baixo*/
   padding: 30px 0 30px 0;
 }
-.section-center {
+.section-center {/**/
   text-align: center;
 }
-#footer {
+#footer {/**/
   background-color: rgb(51, 51, 51);
   text-align: left;
 }
 #footer,
-#footer a {
-  color: rgb(204, 204, 204);/*Cor letra menu inferior*/
+#footer a {/*Cor letra menu inferior*/
+  color: rgb(204, 204, 204);
 }
 #footer h3,
 #footer nav li {
@@ -371,10 +364,10 @@ body {
   border-bottom: 2px solid rgb(204, 204, 204); /*Traço menu*/
   width: 100px;
 }
-#footer nav li {
+#footer nav li { /*Formatação menu inferior*/
   padding: 3px 0;
 }
-#footer nav li a:hover {
+#footer nav li a:hover {/*Formatação menu inferior*/
   color: rgb(255, 255, 255);
 }
 #footer .social {

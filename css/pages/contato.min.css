@@ -201,16 +201,17 @@ p {
   background-color: rgb(133, 31, 6);
 }
 
-.btn.orange {
-  background-color: #fed136;
+.btn.orange {/*Botão enviar*/
+  background-color: #20201e;
 }
 
 .btn.orange:hover {
   background-color: black;
+  text-align: left;
 }
 
 h2 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: normal;
   text-align: center;
   font-size: 25px;
@@ -221,7 +222,7 @@ h2:after {
   display: block;
   background-color: rgb(130, 130, 130);
   margin: 5px auto 0 auto;
-  width: 50px;
+  width: 200px;
   height: 2px;
 }
 .subtitle {
