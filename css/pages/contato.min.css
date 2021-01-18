@@ -6,7 +6,8 @@ textarea {
   padding: 10px;
   width: 100%;
 }
-input[type="submit"] {
+
+[type="submit"] {
   width: auto;
 }
 textarea {
@@ -102,6 +103,7 @@ p {
 .col-6 {
   width: 100%;
 }
+
 @media (min-width: 992px) {
   .container {
     max-width: 992px;
@@ -144,7 +146,7 @@ p {
     width: 100%;
   }
   .col-offset-desktop-1 {
-    margin-left: 8.333333%;
+    margin-left: 1.333333%;
   }
   .col-offset-desktop-2 {
     margin-left: 16.66%;
@@ -186,7 +188,7 @@ p {
   }
 }
 .btn {
-  background-color: rgb(133, 31, 6);
+  background-color: rgb(0, 0, 0);
   color: #fff;
   display: inline-block;
   border-radius: 30px;
@@ -197,17 +199,54 @@ p {
   cursor: pointer;
 }
 
+.zapp {/*Icone zap*/
+  position:absolute; 
+  top:50%;
+  left:10%;
+  transform: translate(-50%, -50%);
+}
+
+.text.orange-duv {/*Texto dúvidas?*/
+  color: rgb(204, 204, 204);
+  font-weight:bold;
+  margin-right:10px;
+  float: right;
+  margin-top:25px;
+  
+}
+
 .btn:hover {
   background-color: rgb(133, 31, 6);
 }
 
-.btn.orange {/*Botão enviar*/
+.btn.orange {/*Botão enviar curriculum*/
   background-color: #20201e;
+  margin-right:1000px; /*Botão a esquerda*/
 }
 
-.btn.orange:hover {
-  background-color: black;
-  text-align: left;
+.btn.orange2 { /*Botão enviar mensagem*/
+  background-color: #f3f3f3;
+  margin-left: 300px; /*Botão a direita*/
+  text-align: justify;
+  color: rgb(49, 49, 49);
+  font-weight:bold;
+  position:absolute; 
+  top:80%;
+  left:220%;
+  transform: translate(-50%, -50%);
+  
+}
+.cont-01 {
+  margin-top: 10px;
+  position:absolute; 
+  top:60%;
+  left:32%;
+}
+.cont-02 {
+  margin-top: 10px;
+  position:absolute; 
+  top:150%;
+  left:32%;
 }
 
 h2 {
@@ -308,14 +347,14 @@ body {
   color: #fff;
   transition: ease 0.5s all;
 }
-#header nav {
+#header nav { /*Display de menu*/
   text-align: right;
 }
 #header nav ul,
-#header nav ul li {
+#header nav ul li { /*Display de menu*/
   display: inline-block;
 }
-#header .title {
+#header .title { /*Texto central*/
   position: absolute;
   left: 0;
   top: 50%;
@@ -328,9 +367,15 @@ body {
 .section-center {
   text-align: center;
 }
-#footer {
+#footer {/*Cor bloco enviar mensagem*/
   background-color: rgb(51, 51, 51);
   text-align: left;
+  width: 100%;
+  height: 150px; /*Largura imagem principal*/
+  position: relative;
+  padding-top: 30px;
+
+  
 }
 #footer,
 #footer a {
@@ -371,7 +416,7 @@ body {
 }
 #copyright {
   text-align: center;
-  background-color: rgb(34, 34, 34);
+  background-color: rgb(3, 0, 0);
   padding: 10px;
 }
 @media (max-width: 992px) {
@@ -381,14 +426,14 @@ body {
   }
 }
 #header.page-contato {
-  background-image: url(../../images/background-contato.jpg);
+  background-image: url();/*imagen menu*/
 }
 main {
-  background-color: rgb(243, 240, 231);
+  background-color: rgb(250, 250, 250);
 }
 .btn {
   border-radius: 0;
   padding: 20px 60px;
   font-size: 18px;
-  border: 1px solid #000;
+  border: 1px solid rgb(94, 93, 93);
 }
