@@ -345,22 +345,22 @@ p {
 .cont-03 {
   margin-top: 10px;
   position:absolute; 
-  top:90%;
-  left:10%;
+  top:91%;
+  left:46%;
 }
 
 .cont-04 {
   margin-top: 10px;
   position:absolute; 
   top:90%;
-  left:31%;
+  left:65%;
 }
 
 .cont-05 {
   margin-top: 10px;
   position:absolute; 
   top:90%;
-  left:55%;
+  left:87%;
 }
 
 @media (max-width: 992px) { /*Responsividade icone email*/
@@ -526,7 +526,7 @@ body {/*Cor da letra do meio*/
 #header .title { /*Texto central*/
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 65%;
   transform: translate(0, -50%);
   text-align: center;
 }
