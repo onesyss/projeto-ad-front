@@ -19,12 +19,6 @@ body {
 p {
   margin: 10px 0 10px 0;
 }
-/**
- * Cálculo colunas:
- * largura_unica_porcentagem = 100 / maximo_colunas
- *
- * Multiplicamos largura_unica_porcentagem pelo tamanho da coluna
- */
 .container,
 .container-fluid {
   width: 100%;
@@ -152,7 +146,7 @@ p {
   }
 }
 .btn {
-  background-color: #83190b;
+  background-color: rgb(84, 209, 84);
   color: #fff;
   display: inline-block;
   border-radius: 30px;
@@ -341,6 +335,6 @@ body {
     text-align: center;
   }
 }
-#header.page-clientes {
-  background-image: url(../../images/background-clientes.jpg);
+#header.page-cliente {
+  background-image: url();
 }
