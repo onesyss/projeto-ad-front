@@ -326,12 +326,10 @@ p {
 }
 
 .cont-01 {
-  
   margin-top: 10px;
   position:absolute; 
-  top:180%;
-  
-  margin-top: -0%;
+  top:35%;
+  margin-top: 15%;
   
 
 }
@@ -339,9 +337,7 @@ p {
   margin-bottom: 0%;
   color: rgb(14, 6, 6);
   text-align:left;
-  font-size: 23px;
-  
-  
+  font-size: 23px;  
 }
 
 .cont-03 {
@@ -349,22 +345,38 @@ p {
   color: rgb(49, 47, 47);
   text-align:left;
   font-size: 22px;
-  text-decoration: underline;
-  
+  text-decoration: underline;  
 }
 
 .cont-04 {
-  margin-top: 10px;
-  position:absolute; 
-  top:90%;
-  left:65%;
+  position: relative;
+  left:-4%;
 }
 
 .cont-05 {
+  position: relative;
+  left:-9%;
+}
+
+.cont-06 {
   margin-top: 10px;
   position:absolute; 
-  top:90%;
-  left:87%;
+  top:87%;
+  left:50%;
+   
+}
+.cont-07 {
+  margin-top: 10px;
+  position:absolute; 
+  top:87%;
+  left:69%;
+  
+}
+.cont-08 {
+  margin-top: 10px;
+  position:absolute; 
+  top:87%;
+  left:91%;
 }
 
 /*.center {
@@ -610,6 +622,42 @@ body {/*Cor da letra do meio*/
   position: relative;
   padding-top: 30px;
 }
+
+.menu-01 {
+  position:absolute;
+  background-color: #000;
+  text-align: right;
+  margin-bottom: -200%;
+  margin-top: 10%;
+  max-width: 180px;
+  left: 80%;  
+  text-decoration:none; 
+}
+
+.menu-02 {
+  position: absolute;
+  background-color: #000;
+  text-align: left;
+  margin-bottom: -200%;
+  margin-top: 32%;
+  max-width: 180px;
+  left: 80%; 
+  text-decoration: none;  
+}
+ 
+.menu-03 {
+  text-decoration: none; 
+  position: absolute;
+  background-color: #000;
+  text-align: right;
+  margin-bottom: -200%;
+  margin-top: 52%;
+  max-width: 180px;
+  left: 80%;  
+  
+}
+
+
 
 @media (max-width: 992px) {
   #header {/*Largura menu*/
