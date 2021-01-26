@@ -4,26 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Conteúdo - Jucá Advocacia</title>
+  <title>FFV marca presença na FENALAW</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/pages/cliente.min.css" rel="stylesheet">
+  <link href="css/pages/materia-um.min.css" rel="stylesheet">
 </head>
 <body>
-<header id="header" class="page-projeto">
+<header id="header" class="page-materia-um">
   <div class="container">
     <div class="row">
       <div class="col col-desktop-3 col-6">
         <a href="index.html">
-          <img src="images/logo-juca1.jpg" alt="Logo da Chatschool"> <!--Logo Chatshool-->
+          <img src="images/logo-juca1.jpg" alt="Logo Jucá"> <!--Logo Jucá-->
         </a>
       </div>
       <div class="col col-desktop-9 col-6">
         <nav>
           <ul>
-            <li><a href="/">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="quem-somos.html">Sobre nós</a></li>
-            <li><a href="clientes.html" class="active"><!--Clientes<!-->Conteúdo</a></li>
+            <li><a href="clientes.html"><!--Clientes<!-->Conteúdo</a></li>
             <li><a href="equipe.html" ><!--Equipe<!-->Projetos</a></li>
             <li><a href="trabalhe-conosco.html">Trabalhe conosco</a></li>
             <li><a href="contato.html" >Contato</a></li>
@@ -33,19 +33,24 @@
     </div>
     <div class="row">
       <div class="col col-desktop-12 title">
-        <h1>Últimas notícias</h1>
+        <h1>Blog</h1>
+        <p>Saiba tudo o que acontece na FFV Advogados</p>
         <nav class="cont-01">
-           <li class="cont-04"><a href="" ><img src="./images/foto1.jpg"><h3 class="cont-02">FFV marca presença na FENALAW</h3><p class="cont-03">Leia mais</p></a></li>
-           <li class="cont-05"><a href=""><img src="./images/foto2.jpg"><h3 class="cont-02">FFV visita o escritório Pinheiro Neto Advogados e reforça parceria</h3><p class="cont-03">Leia mais</p></a></li>
-           <li ><a href=""><img src="./images/foto3.jpg"><h3 class="cont-02">Bernardo Mendes participa do livro “Estudos em Direito do Consumidor”</h3><p class="cont-03">Leia mais</p></a></li>
-           <li ><a href=""><img src="./images/foto4.jpg"><h3 class="cont-02">FFV marca presença nos 50 anos da Receita Federal do Brasil</h3><p class="cont-03">Leia mais</p></a></li>
-           <li ><a href=""><img src="./images/foto5.jpg"><h3 class="cont-02">Américo Ribeiro é o novo sócio do FFV Advogados</h3><p class="cont-03">Leia mais</p></a></li>
+           <li class="cont-04"><a href="materia-um.html" >
+            <img src="./images/foto1.jpg"><br>
+            <h3 class="cont-02">FFV marca presença na FENALAW</h3><br>
+            <p class="menu-05">5 de julho de 2019 / Notícia <br><br>
+              A Fenalaw é o maior e mais importante evento para o mercado jurídico da América Latina, que reúne em três dias as mais novas soluções tecnológicas, lançamento de produtos e serviços para escritórios de advocacia e departamentos jurídicos. Como não poderia deixar de ser, o FFV, há 4 anos, tem a grande honra de participar desse evento.
+              Nesse ano, a Fenalaw conta com um enfoque especial nas lawtechs, empresas de tecnologia especializadas em serviços para escritórios, utilizando gestão de dados e inteligência artificial.
+              Para nós, acompanhar as mudanças de mercado é o nosso desafio diário como profissionais, para continuar em nossa jornada trazendo sempre os melhores resultados para nossos clientes. Em 2019 o FFV entrará definitivamente na era da inteligência artificial em prol da eficiência jurídica.
+              
+              Marcaram presença os integrantes: Adherbal Correa (Coordenador Jurídico), Leandro Maués, Nelson Nasser e Fabrício Menezes.</p></a></li>
         </nav>
         
         <nav class="menu-01">
           <li >
-            <p>Últimas nóticias</p>
-            <a href="" ><img src="./images/foto1.jpg" width="90" height="90" align="left">>
+            <p class="menu-04">Últimas nóticias</p>
+            <a href="materia-um.html" ><img src="./images/foto1.jpg" width="90" height="90" align="left">>
             <h3 class="">FFV marca presença na FENALAW</h3>
             <p class="cont-03">5 de Julho de 2019</p></a></li> 
         </nav>
@@ -100,27 +105,6 @@
 <div id="copyright">
   <p>&copy; Jucá Advocacia - 2021 - Todos os direitos reservados. </p>
 </div>
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script>
-  $('form').submit(function (event) {
-    event.preventDefault();
-    $('form input[type="submit"]').val('Aguarde...')
-        .attr('disabled', true);
-    $.ajax({
-      type: $('form').attr('method'),
-      url: $('form').attr('action'),
-      data: $('form').serialize(),
-      success: function () {
-        alert('Email enviado com sucesso');
-        $('form').trigger('reset');
-
-        $('form input[type="submit"]').val('Enviar')
-        .attr('disabled', false);
-      }
-    });
-  });
-</script>
 
 </body>
 </html>

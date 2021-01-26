@@ -225,7 +225,7 @@ p {
   font-weight:bold;
   position:relative;
   left: 20%; 
-  font-size: 20px;  
+  font-size: 18px;  
 }
 
 @media (max-width: 992px) {
@@ -311,8 +311,8 @@ p {
     font-weight:bold;
     margin-top: 10px;
     position:absolute; 
-    top:-20%;
-    left:140%;
+    top:-7%;
+    left:170%;
 
 }
 
@@ -363,6 +363,41 @@ p {
   left:87%;
 }
 
+.menu-01 {
+  margin-top: 5%;
+  margin-left: 8%;
+  font-size: 16px;
+  max-width: 1100px;
+  text-align: justify;
+  background-color: rgb(255, 250, 250);
+  color: #575757;
+}
+
+.menu-02 {
+  color: #000;
+  margin-top: 5%;
+  margin-left: -59%;
+  font-size: 29px;
+  font-family: "fonte"; src: url("../../projeto/fonts/Gothic\ CG\ No3.otf");
+
+}
+
+.logo-01 {
+  margin-left: 7%;
+  margin-top: 2%;
+}
+
+.ad-01 {
+  position: relative;
+  
+}
+
+.tema-01 {
+  margin-top: 4%;
+  font-size: 34px;
+  text-align: center;
+}
+
 @media (max-width: 992px) { /*Responsividade icone email*/
   .cont-01 {
     margin-left: -50px;
@@ -404,13 +439,15 @@ h2 {
   margin: 10px 0 20px 0;
 }
 h2:after { /*sublinhado*/
-  content: "";
+  /*content: "";*//*sublinhado*/
   display: block;
-  background-color: rgb(130, 130, 130);
   margin: 5px auto 0 auto;
   width: 200px;
   height: 2px;
+  
 }
+
+
 .subtitle {
   margin-bottom: 80px;
 }
@@ -624,12 +661,12 @@ body {/*Cor da letra do meio*/
     text-align: center;
   }
 }
-#header.page-projeto {
+#header.page-servico {
   background-image: url();/*imagem menu*/
 }
 main { /*Cor fundo do meio*/
   background-color: rgb(250, 250, 250);
-  height: 100px;
+  height: 1200px;
 }
 
 @media (max-width: 992px) {/*Largura fundo parte de contatos*/

@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Quem somos - Jucá Advocacia</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <title>Nossa história - Jucá Advocacia</title>
+  <link href="./projeto/fonts/optima.ttf" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/pages/quem-somos.min.css" rel="stylesheet">
 </head>
@@ -15,17 +15,16 @@
     <div class="row">
       <div class="col col-desktop-3 col-6">
         <a href="index.html">
-          <img src="images/logo-juca1.jpg" alt="Logo da Chatschool"> <!--Logo Chatshool-->
+          <img src="images/logo-juca.png" width="610" height="140" class="logo-01" alt="Logo Jucá"> <!--Logo Jucá-->
         </a>
       </div>
       <div class="col col-desktop-9 col-6">
         <nav>
           <ul>
-            <li><a href="/">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="quem-somos.html" class="active">Sobre nós</a></li>
-            <li><a href="clientes.html"><!--Clientes<!-->Conteúdo</a></li>
-            <li><a href="equipe.html" ><!--Equipe<!-->Projetos</a></li>
-            <li><a href="trabalhe-conosco.html">Trabalhe conosco</a></li>
+            <li><a href="servico.html">Serviços</a></li>
+            <li><a href="equipe.html" >Equipe</a></li>
             <li><a href="contato.html" >Contato</a></li>
           </ul>
         </nav>
@@ -33,15 +32,35 @@
     </div>
     <div class="row">
       <div class="col col-desktop-12 title">
-        <h1>Quem somos</h1>
-        <p>Conheça nosso trabalho</p>
+        <h2 class="tema-01">Nossa história</h2>
+        
 
       </div>
+      
     </div>
   </div>
 </header>
 <main>
-  
+  <h2 class="menu-02">O escritório Assis, Jucá e Leal Advocacia Associados S/S</h2>
+  <p class="menu-01">O escritório Alves Jucá Advocacia surgiu de uma necessidade natural 
+    do jurisdicionado em ter seus Direitos defendidos e muito bem representados.<br>
+    <br>Fundado em maio de 2008, atua incessantemente na busca por soluções rápidas e éticas. 
+    Além de uma estrutura física moderna, contamos com sistema jurídico desenvolvido especialmente 
+    para o escritório, todos os clientes poderão ter acesso aos seus processos e, o mais importante, 
+    em tempo real e com transparência. <br>
+    <br>Também desenvolvemos habilidades para atendimento remoto.<br>
+    <br>Nossa atuação é focada no atendimento à Pessoa Jurídica, desempenhando as funções 
+      de acordo com a necessidade do cliente, principalmente nas áreas de Direito: Ambiental; 
+      Administrativo; Civil; Trabalhista; Tributário.<br>
+    
+    <br>Com metodologia própria, o escritório conta com uma equipe multidisciplinar preparada 
+      para atender os anseios de nossos parceiros comerciais tanto em demandas contenciosas 
+      como também em preventivas.<br>
+    
+    <br>Nossa filosofia de trabalho é pautada na Agilidade, Eficiência e Transparência, 
+      buscando analisar cada caso com uma visão 360º, garantindo assim a segurança jurídica 
+      desejada.</p>
+    
 
   </section>
 </main>
@@ -73,27 +92,6 @@
 <div id="copyright">
   <p>&copy; Jucá Advocacia - 2021 - Todos os direitos reservados. </p>
 </div>
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script>
-  $('form').submit(function (event) {
-    event.preventDefault();
-    $('form input[type="submit"]').val('Aguarde...')
-        .attr('disabled', true);
-    $.ajax({
-      type: $('form').attr('method'),
-      url: $('form').attr('action'),
-      data: $('form').serialize(),
-      success: function () {
-        alert('Email enviado com sucesso');
-        $('form').trigger('reset');
-
-        $('form input[type="submit"]').val('Enviar')
-        .attr('disabled', false);
-      }
-    });
-  });
-</script>
 
 </body>
 </html>
