@@ -388,6 +388,7 @@ p {
 }
 
 .tema-01 {
+  font-family: "fonte"; src: url("../../projeto/fonts/Gothic\ CG\ No3.otf");
   margin-top: 3%;
   font-size: 34px;
   text-align: center;

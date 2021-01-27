@@ -234,6 +234,7 @@ p {
  left: -43%;
  top: -70px;
  font-size: 15px;
+ font-family: "fonte"; src: url("../../projeto/fonts/Gothic\ CG\ No3.otf");
 }
 
 .name2 {
@@ -241,6 +242,7 @@ p {
   left: -40%;
   top: -70px;
   font-size: 15px;
+  font-family: "fonte"; src: url("../../projeto/fonts/Gothic\ CG\ No3.otf");
  }
 
 @media (max-width: 992px) {
@@ -257,7 +259,7 @@ p {
   font-weight:bold;
   position:relative;
   left: 20%; 
-  font-size: 20px;  
+  font-size: 18px;  
 }
 
 @media (max-width: 992px) {
@@ -364,14 +366,17 @@ p {
 .cont-01 {
   position:relative; 
   font-size: 15px;
-  left:320%;
-  margin-top: -450px;
+  left:317%;
+  margin-top: -430px;
+  top: 15px;
+  font-family: "fonte"; src: url("");
 }
 .cont-02 {
   position:relative; 
   font-size: 15px;
-  left:297%;
-  top:-30px;
+  left:298%;
+  top:-20px;
+  font-family: "fonte"; src: url("");
   
 }
 
@@ -397,10 +402,12 @@ p {
 }
 
 .cont-7 {
+  font-family: "fonte"; src: url("");
   position:absolute; 
-  font-size: 25px;
+  font-size: 20px;
   left:325%;
   margin-top: -70px;
+  
 }
 
 .logo-01 {
@@ -409,9 +416,10 @@ p {
 }
 
 .tema-01 {
-  margin-top: 4%;
+  margin-top: 4.1%;
   font-size: 34px;
   text-align: center;
+  font-family: "fonte"; src: url("../../projeto/fonts/Gothic\ CG\ No3.otf");
 }
 
 @media (max-width: 992px) { /*Responsividade icone email*/
@@ -468,6 +476,7 @@ h2:after { /*sublinhado*/
   position: relative;
   left: 30%;
   top: -20px;
+  font-family: "fonte"; src: url("../../projeto/fonts/Gothic\ CG\ No3.otf");
   
 }
 .text-left {
@@ -590,7 +599,7 @@ body {/*Cor da letra do meio*/
 p.subtitle {
   color: #5e5e5e;
   position:relative;
-  left: -450px; 
+  left: -474px; 
   font-size: 23px; 
   
 }
@@ -611,7 +620,7 @@ p.subtitle {
   text-align: center;
 }
 #footer {/*Cor bloco enviar mensagem*/
-  background-image: url(../../images/banner35.jpg);
+  background-image: url(../../images/banner35.jpg) ;
   background-color: rgb(51, 51, 51);
   text-align: left;
   width: 100%;

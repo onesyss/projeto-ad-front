@@ -393,15 +393,54 @@ p {
   text-align: center;
   list-style: none; 
   display: flex; 
-  justify-content: space-around;
-  margin-top: 7%;
-  margin-left: -3%;
+  margin-top: 10%;
+  margin-left: 5%;
   
+}
+
+.ad-02 {
+  color: #0f0331;
+  font-family: "font"; src: url("../../projeto/fonts/optima.ttf");
+  text-align: center;
+  list-style: none; 
+  display: flex; 
+  margin-top: -24%;
+  margin-left: 48%;
+  font-size: 30px;
+}
+
+.ad-03 {
+  color: #0f0331;
+  text-align: center;
+  list-style: none; 
+  display: flex; 
+  margin-top: 1%;
+  margin-left: 34%;
+  font-size: 34px;
+}
+
+.ad-04 {
+  color: #ebebeb;
+  font-family: "font"; src: url("../../projeto/fonts/optima.ttf");
+  text-align: center;
+  list-style: none; 
+  display: flex; 
+  margin-top: 5%;
+  margin-left: 34%;
+  font-size: 30px;
+}
+
+.bloc-01 {
+  color: #0f0331;
+  font-family: "font"; src: url("../../projeto/fonts/optima.ttf");
+  
+  background-color: aqua;
 }
 
 .tema-01 {
   font-family: "fonte"; src: url("../../projeto/fonts/Gothic\ CG\ No3.otf");
-  margin-top: 4%;
+  margin-top: 6%;
+  margin-left: -70%;
   font-size: 34px;
   text-align: center;
   
@@ -588,11 +627,31 @@ body {/*Cor da letra do meio*/
 .section {
   padding: 30px 0 30px 0;
 }
-.section-center {
-  text-align: center;
+.section-center1 {
+  position:relative;
+  background-color: rgb(236, 223, 222);
+  margin-top: 25%;
+  height: 40%;
+  
+}
+
+.section-center2 {
+  background-image: url("../../../../images/banner-1920x450-linha-index.png");
+  -webkit-filter: grayscale(80%);
+  position:relative;
+  background-color: rgb(250, 242, 242);
+  margin-top: -3%;
+  height: 32%;
+}
+
+.section-center3 {
+  position:relative;
+  background-color: rgb(0, 0, 0);
+  margin-top: -25%;
+  height: 15%;
 }
 #footer {/*Cor bloco enviar mensagem*/
-  background-image: url(../../images/banner35.jpg);
+  background-image: url(../../../../images/banner35.jpg);
   background-color: rgb(51, 51, 51);
   text-align: left;
   width: 100%;
@@ -670,12 +729,12 @@ body {/*Cor da letra do meio*/
     text-align: center;
   }
 }
-#header.page-servico {
+#header.page-socio1 {
   background-image: url();/*imagem menu*/
 }
 main { /*Cor fundo do meio*/
   background-color: rgb(245, 245, 245);
-  height: 750px;
+  height: 1750px;
 }
 
 @media (max-width: 992px) {/*Largura fundo parte de contatos*/
