@@ -97,7 +97,7 @@ p {
   width: 49.999998%;
 }
 .col-4 {
-  width: 66.666664%;
+  width: 30.666664%;
   left: 40%;
   margin-top: -20%;
 }
@@ -207,7 +207,7 @@ p {
 .zapp {/*Icone zap*/
   position:absolute; 
   top:35%;
-  left:10%;
+  left:45%;
   transform: translate(-50%, -50%);
 }
 
@@ -224,7 +224,7 @@ p {
   color: rgb(204, 204, 204);
   font-weight:bold;
   position:relative;
-  left: 20%; 
+  left: 60%; 
   font-size: 18px;  
 }
 
@@ -268,7 +268,7 @@ p {
 
 
 .btn.orange2 { /*Botão enviar mensagem*/
-  background-color: #f3f3f3;
+  background-color: hsl(0, 0%, 95%);
   margin-left: 300px; /*Botão a direita*/
   text-align: justify;
   color: rgb(49, 49, 49);
@@ -409,24 +409,141 @@ p {
   font-size: 30px;
 }
 
+.texto-central {
+  color: #eae9ec;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 9.3%;
+  margin-top:0%;
+}
+
+.especialista {
+  color: #b3a706;
+  text-align: left;
+  font-size: 18px;
+  position: relative;
+  top: 69%;
+  left: 12%;
+}
+
+.rede-social1 {
+  position: relative;
+  left: 36%;
+}
+
+.rede-social2 {
+  position: relative;
+  top: -9%;
+  left: 55%;
+}
+
+.rede-social3 {
+  position: relative;
+  top: -9%;
+  left: 75%;
+}
+
+.subtitulo {
+  color: #eae9ec;
+  font-size: 12px;
+  position: relative;
+  text-align: justify;
+  top: -62%;
+  left: 44%;
+  
+
+}
+
+.subtitulo1 {
+  color: #eae9ec;
+  text-align: left;
+  font-size: 17px;
+  position: relative;
+  top: -45%;
+  left: 46.9%;
+}
+
+.subtitulo2 {
+  color: #eae9ec;
+  text-align: left;
+  font-size: 12px;
+  position: relative;
+  top: -25%;
+  left: 47%;
+}
+
+.subtitulo3 {
+  color: #b3a706;
+  font-weight: bolder;
+  font-size: 15px;
+  position: relative;
+  left: 29%;
+  top: -60%;
+}
+
+.subtitulo4 {
+  color: #b3a706;
+  font-weight: bolder;
+  font-size: 15px;
+  position: relative;
+  left: 30.6%;
+  top: -143%;
+}
+
+.subtitulo5 {
+  color: #b3a706;
+  font-weight: bolder;
+  font-size: 15px;
+  position: relative;
+  left: 29.4%;
+  top: -127%;
+}
+
 .ad-03 {
-  color: #0f0331;
-  text-align: center;
+  color: #edecf1;
   list-style: none; 
   display: flex; 
-  margin-top: 1%;
-  margin-left: 34%;
-  font-size: 34px;
+  position: relative;
+  left: 67%;
+  top: -92%;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.format-img-oab {
+  position: absolute;
+  top: 11%;
+  left: 45%;
+
+}
+
+.format-img {
+  position: absolute;
+  top: 29%;
+  left: 12%;  
+}
+
+.format-img2 {
+  position: absolute;
+  top: 31%;
+  left: 70%;
+}
+
+.format-img3 {
+  position: absolute;
+  top: 60%;
+  left: 70%;
 }
 
 .ad-04 {
-  color: #ebebeb;
-  font-family: "font"; src: url("../../projeto/fonts/optima.ttf");
-  text-align: center;
+  color: #f5f4f3;
+  font-family: "font"; src: url("../../../../projeto/fonts/Gothic\ CG\ No3.otf");
+  font-weight: bolder;
   list-style: none; 
   display: flex; 
-  margin-top: 5%;
-  margin-left: 34%;
+  position:absolute;
+  top: 19%;
+  left: 10%;
   font-size: 30px;
 }
 
@@ -628,27 +745,26 @@ body {/*Cor da letra do meio*/
   padding: 30px 0 30px 0;
 }
 .section-center1 {
+  background-color: rgb(48, 47, 47);
   position:relative;
-  background-color: rgb(236, 223, 222);
-  margin-top: 25%;
-  height: 40%;
-  
+  margin-top: 20%;
+  height: 27%; 
 }
 
 .section-center2 {
-  background-image: url("../../../../images/banner-1920x450-linha-index.png");
-  -webkit-filter: grayscale(80%);
+  background-color: #111001;
   position:relative;
-  background-color: rgb(250, 242, 242);
-  margin-top: -3%;
-  height: 32%;
+  top: 0%;
+  left: 0%;
 }
 
 .section-center3 {
+  background-color: rgb(54, 54, 54);
   position:relative;
-  background-color: rgb(0, 0, 0);
-  margin-top: -25%;
-  height: 15%;
+  top: 0%;
+  left: 0%;
+  
+  
 }
 #footer {/*Cor bloco enviar mensagem*/
   background-image: url(../../../../images/banner35.jpg);
@@ -733,8 +849,9 @@ body {/*Cor da letra do meio*/
   background-image: url();/*imagem menu*/
 }
 main { /*Cor fundo do meio*/
-  background-color: rgb(245, 245, 245);
-  height: 1750px;
+  background-color: rgb(241, 237, 237);
+  height: 1000px;
+  
 }
 
 @media (max-width: 992px) {/*Largura fundo parte de contatos*/
