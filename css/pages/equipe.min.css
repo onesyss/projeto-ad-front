@@ -673,10 +673,7 @@ body {/*Cor da letra do meio*/
 #header.page-servico {
   background-image: url();/*imagem menu*/
 }
-main { /*Cor fundo do meio*/
-  background-color: rgb(245, 245, 245);
-  height: 750px;
-}
+
 
 @media (max-width: 992px) {/*Largura fundo parte de contatos*/
   main {

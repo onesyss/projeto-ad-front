@@ -208,8 +208,9 @@ p {
 .zapp {/*Icone zap*/
   position:absolute; 
   top:35%;
-  left:45%;
+  left:58%;
   transform: translate(-50%, -50%);
+  
 }
 
 @media (max-width: 992px) {
@@ -225,8 +226,8 @@ p {
   color: rgb(204, 204, 204);
   font-weight:bold;
   position:relative;
-  left: 60%; 
-  font-size: 18px;  
+  left: 72%; 
+  font-size: 20px;  
 }
 
 @media (max-width: 992px) {
@@ -313,7 +314,7 @@ p {
     margin-top: 10px;
     position:absolute; 
     top:-7%;
-    left:170%;
+    left:260%;
 
 }
 
@@ -401,7 +402,7 @@ p {
 }
 
 .ad-02 {
-  color: #0f0331;
+  color: rgb(77, 77, 77);
   font-family: "font"; src: url("../../projeto/fonts/optima.ttf");
   list-style: none; 
   display: flex; 
@@ -415,35 +416,97 @@ p {
   list-style: none;
 }
 
-.carreira {
-  color: black;
+.meu-email {
+  color: rgb(77, 77, 77);
+  text-align: justify;
+  font-size: 18px;
+  font-family: "font"; src: url("../../projeto/fonts/optima.ttf");
+  font-weight: bolder;
+  margin-left: -107%;
+  position: relative;
+  top: 180px;
+}
+
+.area-de-atuacao {
+  color:rgb(77, 77, 77);
   text-align: justify;
   font-size: 26px;
   font-family: "font"; src: url("../../projeto/fonts/optima.ttf");
   font-weight: bolder;
-  margin-left: -214%;
-  margin-top:80%;
+  position: relative;
+  top: 220px;
+  left: -630px;
 }
 
 
 .atuacao {
-  color:  #0f0331;
+  color:  rgb(77, 77, 77);
   text-align: justify;
   font-size: 20px;
   font-family: "font"; src: url("../../projeto/fonts/optima.ttf");
-  margin-left: -220%;
-  margin-top:18%;
+  position: relative;
+  top: 230px;
+  left: -630px;
 }
 
+.formacao {
+  color:  rgb(77, 77, 77);
+  text-align: justify;
+  font-size: 26px;
+  font-family: "font"; src: url("../../projeto/fonts/optima.ttf");
+  position: relative;
+  top: 240px;
+  left: -630px;
+}
 
+.formacao1 {
+  color: rgb(77, 77, 77);
+  text-align: justify;
+  font-size: 20px;
+  font-family: "font"; src: url("../../projeto/fonts/optima.ttf");
+  position: relative;
+  top: 250px;
+  left: -630px;
+}
+
+.experiencias {
+  color:  rgb(77, 77, 77);
+  text-align: justify;
+  font-size: 26px;
+  font-family: "font"; src: url("../../projeto/fonts/optima.ttf");
+  position: relative;
+  top: 265px;
+  left: -630px;
+}
+
+.experiencias1 {
+  color: rgb(77, 77, 77);
+  text-align: justify;
+  font-size: 20px;
+  font-family: "font"; src: url("../../projeto/fonts/optima.ttf");
+  position: relative;
+  top: 279px;
+  left: -630px;
+}
+
+.direito-criminal {
+  color: #ffffff;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bolder;
+  position: absolute;
+  top: 34%;
+  left: 15%;
+}
 
 .especialista {
   color: #ffffff;
   text-align: left;
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: bolder;
   position: absolute;
   top: 5%;
-  left: 12%;
+  left: 15%;
 }
 
 .rede-social1 {
@@ -463,18 +526,10 @@ p {
   left: 75%;
 }
 
-.subtitulo {
-  color: #eae9ec;
-  font-size: 10px;
-  position: relative;
-  top: -60px;
-  left: 0%;
-}
-
 .subtitulo1 {
   color: #eae9ec;
   text-align: left;
-  font-size: 17px;
+  font-size: 15px;
   position:absolute;
   margin-top: -2%;
   left: 46.9%;
@@ -483,10 +538,11 @@ p {
 .subtitulo2 {
   color: #eae9ec;
   text-align: left;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: bolder;
   position: relative;
-  top: 50px;
-  left: 46.7%;
+  top: 60px;
+  left: 46.4%;
 }
 
 .subtitulo3 {
@@ -498,48 +554,47 @@ p {
   top: -60%;
 }
 
-.subtitulo4 {
+.redes-sociais {
   color: #f0efea;
   font-weight: bolder;
   font-size: 15px;
   position: relative;
-  left: 30.6%;
-  top: 50%;
-}
-
-.subtitulo5 {
-  color: #f0efea;
-  font-weight: bolder;
-  font-size: 15px;
-  position: relative;
-  left: 29.4%;
-  top: -127%;
+  left: 70%;
+  top: -55px;
 }
 
 
 .format-img-oab {
   position: relative;
-  top: -37px;
-  left: 47%;
+  top: -70px;
+  left: 47.2%;
+  filter: grayscale(.60);
 
 }
 
 .format-img {
   position: absolute;
-  top: 24%;
-  left: 13%;  
+  top: 17%;
+  left: 17.5%;  
+  filter: grayscale(.30);
 }
 
 .format-img2 {
   position: absolute;
-  top: 31%;
+  top: 24%;
   left: 70%;
 }
 
 .format-img3 {
   position: absolute;
-  top: 60%;
-  left: 70%;
+  top: 22.5%;
+  left: 75%;
+}
+
+.format-img4 {
+  position: absolute;
+  top: 23%;
+  left: 80.8%;
 }
 
 .ad-04 {
@@ -755,14 +810,17 @@ body {/*Cor da letra do meio*/
   background:white;
   position:relative;
   margin-top: 20%;
-  height: 27%; 
+  height: 20px; 
 }
 
 .section-center2 {
   background-color: #5a5a5a;
   position:relative;
-  top: 210px;
-  left: 0%;
+  margin-top: 560px;
+  height: 300px;
+  top: 130px;
+
+  
   
 }
 
@@ -782,6 +840,7 @@ body {/*Cor da letra do meio*/
   height: 130px; /*Largura imagem principal*/
   position: relative;
   padding-top: 30px;
+  filter: grayscale(.90);
   
 }
 
@@ -891,4 +950,20 @@ main { /*Cor fundo do meio*/
     position: absolute;
     left: 2%;
   }
+}
+
+.back-to-top {
+  width: 60px;
+  height: 60px;
+  display: block;
+  background: url('../../../../images/acima.png')no-repeat;
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+}
+
+.back-to-top:hover {
+  cursor: pointer;
+  background-position: 0 -60px;
+  
 }
